@@ -181,7 +181,7 @@ def main():
 
     if (arg_length <= 6):
         print(
-            "Please specify 5 parameters: \n\t\t v2_import.py <posts|comments|users> <folder path> <mongodb database> <mongodb collection name> <connection_url>")
+            "Please specify 5 parameters: \n\t\t import_to_mongodb.py <posts|comments|users> <folder path> <mongodb database> <mongodb collection name> <connection_url>")
         exit()
 
     start_time = datetime.datetime.fromtimestamp(time())
