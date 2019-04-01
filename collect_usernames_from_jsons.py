@@ -87,7 +87,7 @@ def main():
 
     if (arg_length <= 1):
         print(
-            "Please specify at 1 parameter: \n\t\t collect_user_jsons_to_one_file.py  <folder path>")
+            "Please specify at 1 parameter: \n\t\t collect_usernames_from_jsons.py  <folder path>")
         exit()
 
     start_time = datetime.datetime.fromtimestamp(time())
